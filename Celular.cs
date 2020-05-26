@@ -17,7 +17,9 @@ namespace AulaPOOCelular
         public string MensagemRecebida(){
             return "Bom dia, vamos começar os trabalhos";
         }
-
+        public string MensagemNaoEnviada(){
+            return "Celular Desligado";
+        }
 
     }
 }

@@ -14,8 +14,17 @@ namespace AulaPOOCelular
            iphone.ligado = true;
            iphone.desligar = false;
 
-           Console.WriteLine(iphone.EnviarMensagem());
+           if(iphone.ligado==true){
+               Console.WriteLine(iphone.EnviarMensagem());
            Console.WriteLine(iphone.MensagemRecebida());
+           }else{
+               Console.WriteLine(iphone.MensagemNaoEnviada());
+           }
         }
     }
 }
+
+
+
+
+
